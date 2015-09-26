@@ -1,0 +1,345 @@
+/* stylesheet lr website */
+ 
+
+/* reset browser styles */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1.2;
+}
+
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ 
+/* ---------------------end of reset ------------------------ */ 
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 90%;
+	background-color: lightgray;  
+        margin-top: 175px; 
+	}
+
+.top {
+	background-color: lightgray; 
+	height: 175px; 
+	width: 100%;
+        position: fixed;
+        top:0;
+        left: 0; 
+	}
+        
+h1  { 
+        font-weight: 400;
+	font-size: 50px;
+	padding-top: 20px; 
+	color: white;
+	margin-left: 4px;
+	margin-bottom: 1px; 
+	text-align: left;    
+	letter-spacing: .7px; 
+        float:left; 
+        clear: both; 
+	}
+
+h2 { 
+        font-weight: 400;
+	padding-top: 10px; 
+	color: white;	  
+	text-align: left;    
+	letter-spacing: .7px;
+        font-size: 20px; 
+        float:right; 
+        margin-right: 80px; 
+        clear:both; 
+        }        	
+h3 {  
+	font-size: 20px;
+	padding-top: 2px; 
+	color: white;
+	margin-left: 54px;
+	margin-bottom: 15px; 
+	text-align: left;   
+	text-transform: uppercase;  
+	font-weight: normal;  
+ 	letter-spacing: .7px;
+	}
+        
+      
+.email {
+        text-decoration: none; 
+        color: white; 
+        }   
+        
+.middlebox, .jobs {
+	background-color:white; 
+	width: 75%; 
+	margin-left: 75px;
+        font-style: italic; 
+        line-height: 1.4em; 
+        padding-left: 25px; 
+        }
+        
+.bio {
+        color: black; 
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        }        
+        
+.biophoto  ul li {
+	list-style: none; 
+        float: right; 
+	margin-top: 35px; 
+        margin-left: 100px;
+        padding-right: 30px; 
+        padding-bottom: 30px; 
+        margin-bottom: 105px; 
+	}
+
+.headerone {
+        border-bottom: 1px solid darkgray;
+        height: 90px; 
+        margin-left: 54px;
+        }
+   
+.headertwo {
+        font-style:italic; 
+        color: black;
+        width: 100%; 
+        float: left; 
+        margin-top: 14px; 
+        }               
+        
+.headertwo ul li  {
+	list-style: none; 
+	display: inline-block;
+	font-size: 20px;	
+	color: white;
+        margin-left: 28px; 
+        padding-bottom: 25px;   
+	}
+
+.nav ul li {
+	list-style: none; 
+	float:right;
+        display: inline-block;
+	font-size: 20px;
+	padding-top: 30px;
+	color: white; 
+        margin-right: 80px; 
+        padding-bottom: 25px; 
+	}  
+        
+.list {
+        padding-bottom: 20px;  
+        padding-left: 70px; 
+        }
+        
+a {
+        color:white; 
+        text-decoration: none;
+	} 
+		
+.nav ul li :hover {
+        color: #5e5d5b;
+        height: 30px;  
+}
+	
+/* jobs */
+.joblist {
+        margin-top: 15px; 
+}
+.jobs {
+        padding-top: 10px;
+        padding-bottom: 10px; 
+}
+.companyname {
+        font-family: arial, sans-serif;  
+	font-size: 20px;
+	padding-top: 10px;
+        padding-left: 5px; 
+	color: black;
+	margin-left: 4px;
+	margin-bottom: 15px; 
+        padding-top: 15px; 
+        padding-bottom: 15px; 
+	text-align: left;   
+	text-transform: uppercase;  
+	font-weight: normal;  
+ 	letter-spacing: .7px;
+        border-bottom: 1px solid darkgray; 
+        border-top: 1px solid darkgray; 
+}
+.companyname img, .schoolname img {
+        padding-right: 5px; 
+    
+}
+.jobtitle {
+    font-size: 20px;
+    margin-left: 4px; 
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+.jobdescription {
+    font-style: normal; 
+    margin-left: 35px;
+    margin-right: 25px;
+    font-size: 18px; 
+}
+
+.jobbullets {
+    margin-left: 45px;
+    font-style: normal; 
+    margin-top: 10px; 
+    margin-right: 45px; 
+    font-size: 18px; 
+}
+
+.amexlogo, .csclogo{
+    width: 5%;   
+}
+
+.MXLlogo {
+    width: 4%;
+}
+
+/* -------------- contact form -----------------------*/
+.contactform {
+    
+    border: 1px solid darkgray; 
+    margin-left: 75px;  
+}
+.subjecttext, .messagetext {
+    margin-bottom: 10px; 
+    padding-left: 20px; 
+}
+
+.subjectbox {
+      width: 300px; 
+      height: 30px;        
+    }
+  
+   
+/* --------------- footer ----------------------------*/
+
+
+footer {
+	width: 90%; 
+	background-color: lightgray;
+	margin-left: 25px;
+	margin-top: 10px; 
+	height: 90px;  
+	padding-bottom: 25px;
+	}
+
+.bottomline {
+        margin-top: 20px;
+        border-bottom: solid 1px darkgray; 
+        margin-left: 53px; 
+        }        
+	
+footer .links ul li {
+	list-style: none; 
+	display: inline-block;
+	margin-top: 10px; 
+        
+	}
+	
+footer .links ul li img {
+	width: 100%;
+	}	
+
+.address {
+        color: white;
+        margin-left: 8px; 
+        
+        }
+.ssp, .linkedin {
+        width: 2.75%; 
+        padding-right: 4px;  
+        }        
+    
+.ssp {
+        height: 35px;  
+        }        
+
+.emaillink  {
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase; 
+	width: 35px; 
+        padding-left: 3px; 
+	}	
+
+
+/* --------------- responsive --------------------------------- */
+
+/* --------------------- tablet display only ----------------------------- */
+@media (min-width: 481px) and (max-width:768px) {
+body {
+	width: 95%; 
+	}
+	
+p, ul, ol {
+	font-size: 20px;
+	}
+
+h1 {
+	margin-left: 0px; 
+	}
+	
+.headertwo {
+	height: 79px; 
+	}
+		
+.headertwo ul li {
+	display: block;
+	margin-bottom: 5px; 
+	}	
+
+      
+
+/* -----------------------end tablet properties ------------------  */
+
+
+
+/* ----------------- phone  display only -------------------   */
+@media (max-width:480px) {
+body {
+	width: 40%; 
+}
+
+}
+
+/* --------------------end phone properties s------------------ */
+
+	
