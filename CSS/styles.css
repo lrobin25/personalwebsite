@@ -147,7 +147,7 @@ h3 {
         padding-bottom: 25px;   
 	}
 
-.nav ul li {
+.navbar ul li {
 	list-style: none; 
 	float:right;
         display: inline-block;
@@ -168,7 +168,7 @@ a {
         text-decoration: none;
 	} 
 		
-.nav ul li :hover {
+.navbar ul li :hover {
         color: #5e5d5b;
         height: 30px;  
 }
