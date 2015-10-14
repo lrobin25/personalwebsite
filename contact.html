@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-
-   <head>
+    <head>
         <title>Laura Robinson</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
@@ -10,69 +8,31 @@
         <link type="text/css" rel="stylesheet" href="CSS/styles.css" />				
     </head>
 
-	
+    <body> 
+        <header> 
+             <script type="text/javascript"  src = "JS/header.js" ></script>    
+        </header>
 
-<body> 
-<header>
-<div class="top">	
-    <div class="headerone">    
-    <h1> laura robinson </h1> 
-            <nav class="navbar">        
-                <ul> 
-                    <li> <a href="contact.html">Contact  </a> </li>
-                    <li> <a href="accomplishments.html#education"> Education </a>
-                    <li> <a href="accomplishments.html"> Accomplishments  </a>  
-                    <li> <a href="index.html"> Bio  </a> 
-                </ul>      
-            </nav> 
-        
-    </div>
-    
-    <div class="headertwo" >
-        <ul> 
-            <li class="contact">problem solver   </li>
-            <li class="contact">change agent </li>
-            <li class="contact">volunteer </li>
-                     
-        </ul>
-    </div>
-</div>         
-</header>
+    <div class = "contactform">
+        <form method="post" action="submit.html">	
+            <h3>Contact Laura Robinson </h3>
+            <p>
+                <label   class="subjecttext"> Subject</label>
+                <input type="text" name="subject" class="subjectbox"> </p>
+            <p>
+                <label   class="messagetext"> Message to Laura</label>
+                <textarea name="message" class="messagebox" >
+                </textarea>  </p>
 
-<div class = "contactform">
-    <form method="post" action="submit.html">	
-        <h3>Contact Laura Robinson </h3>
-        <p>
-            <label   class="subjecttext"> Subject</label>
-            <input type="text" name="subject" class="subjectbox"> </p>
-        <p>
-            <label   class="messagetext"> Message to Laura</label>
-            <textarea name="message" class="messagebox" >
-            </textarea>  </p>
-
-
-<div class="submitbutton">
-	<p> <a href="index.html"> Submit </a> </p>	
-	</div>	
-</div>	
-
-        
-    <div class="bottomline">
-    </div>
+            <div class="submitbutton">
+                <p> <a href="index.html"> Submit </a> </p>	
+            </div>    
+        </form>
+    </div>	
     
     <footer>
-              
-	<div class = "links">
-            <ul>
-                <li class="linkedin"> <a href="https://www.linkedin.com/in/robinsonlaura"><img src="images/In.png"  alt = "LinkedIn"/>  </a>
-                    </li>
-                <li class="ssp"> <a href="http://www.smallsquarephotography.com">  <img src="images/SSP.jpg" alt = "USGA"/>  </a>
-                    </li>
-                    <li class="emaillink"> <a href= "mailto:laura.robinson@live.com">  <img src="images/email.jpg"  alt = "Email">  </a> </li>
-                    <li  class="address"> Evergreen, CO   |   303.555.1212   |   laura.robinson@live.com </li> 
-            </ul>
-	</div>
-        </footer>
+            <script type="text/javascript"  src = "JS/footer.js" ></script> 	 
+    </footer>
 
-    </body>
-    </html>
+</body>
+</html>
