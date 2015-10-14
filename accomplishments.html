@@ -15,12 +15,15 @@
     
         <article class="joblist">
             <div class="jobs"> 
-                <p class="companyname"><img src="images/PWR.jpg"  class="MXLlogo" alt = "logo"/>PWR Consulting  </p> 
+                <h4> Click on a logo to see details </h4>
+                
+                <p class="companyname"><input type = "image" img src="images/PWR.jpg"  class="MXLlogo"  
+                       class="button" id="PWRbutton" />   PWR Consulting </p>      
                 <p class="jobtitle">Owner / Principal Consultant </p>
                 <p class="jobdescription"> Focused on helping companies implement technology solutions 
                     through software development and training.  </p>
 
-                    <ul class="jobbullets"> 
+                    <ul class="jobbullets hidden" id ="itemlist"> 
                         <li>Problem solving:  Help organizations clarify challenges and identify solutions.</li>
 
                         <li>Training:  Deliver Project Management and Business Analysis training to 
@@ -39,11 +42,13 @@
                 </ul>
             </div>
         
-            <div class="jobs">    
-                 <p class="companyname"><img src="images/MXL.jpg"  class="MXLlogo" alt = "logo"/>MX Logic </p>
+            <div class="jobs">  
+                <p class="companyname"><input type = "image" img src="images/MXL.jpg"  class="MXLlogo"  
+                       class="button" id="MXLbutton" />  MX Logic </p>
                  <p class="jobtitle">Director, Product Management </p>
                  <p class="jobdescription"> Managed product development for a start-up email defense company offering a hosted solution: </p>
-                    <ul class="jobbullets">
+                     
+                 <ul class="jobbullets hidden" id ="MXLlist"> 
                         <li>Implemented new software development lifecycle processes including requirements 
                         documentation, release content and timing decision making, and defined roles and 
                         responsibilities  </li>
@@ -56,10 +61,13 @@
             </div>
         
             <div class="jobs">
-                <p class="companyname"><img src="images/brocade.jpg" class="csclogo"/>McDATA Corporation (now Brocade)</p>
+                <p class="companyname"> <input type = "image" img src="images/brocade.jpg"  class="csclogo"  
+                       class="button" id="MCDbutton" />
+                        McDATA Corporation (now Brocade)</p>
                 <p class="jobtitle">Senior Program Manager – Software Product Development </p>
                 <p class="jobdescription"> Responsible for the delivery of McDATA’s embedded firmware and management software for switch and director products. Achievements include: </p> 
-                    <ul class="jobbullets"> 
+                    
+                <ul class="jobbullets hidden" id ="MCDlist"> 
                         <li>Developed and implemented product development lifecycle process for software products from product inception, planning and design through to OEM qualification and launch
                         <li>Led three cross-functional teams to successfully deliver new software releases
                         <li>Significantly improved cross-functional communication and product definition process, introduced new processes to develop products concurrently 
@@ -68,11 +76,13 @@
             </div>
         
             <div class="jobs">
-                <p class="companyname"> <img src="images/csc.jpg" class="csclogo" alt = "logo"/> CSC Consulting (Computer Sciences Corporation) </p>
+                <p class="companyname"> <input type = "image" img src="images/csc.jpg"  class="csclogo"  
+                       class="button" id="CSCbutton" />
+                        CSC Consulting (Computer Sciences Corporation) </p>
                 <p class="jobtitle">Principal consultant </p>
                 <p class="jobdescription"> Responsible for delivering technology projects including e-commerce solutions and business process analysis.  Major engagements include:s  </p>
  
-                    <ul class="jobbullets">
+                     <ul class="jobbullets hidden" id ="CSClist"> 
                         <li>Program management / account management:  
                             Managed a program to enable a mortgage services company to become a web-based, 
                             customer self-care organization. Included in the program was the design of new call 
@@ -94,10 +104,12 @@
             </div>
         
             <div class="jobs">
-                <p class="companyname"> <img src="images/TBP.jpg"   alt = "logo"/>The Berkeley Partnership, London  </p>
+                <p class="companyname"> <input type = "image" img src="images/TBP.jpg"   
+                       class="button" id="TBPbutton" />
+                        The Berkeley Partnership, London  </p>
                 <p class="jobdescription"> For a boutique consulting company focused on IT and operations, responsibilities included managing client relationships and delivering solutions.  Major engagements include: 
 
-                    <ul class="jobbullets">
+                     <ul class="jobbullets hidden" id ="TBPlist"> 
                         <li>Program management:  Designed the operation and managed the start-up of the UK's 
                             largest general-purpose grant making organization (British National 
                             Lottery) distributing $450 million in aid per year.  Reporting to the CEO, 
@@ -117,10 +129,12 @@
             </div>
 
             <div class="jobs">
-                <p class="companyname"><img src="images/amexlogo.jpg" class="amexlogo"/>American Express, New York & London </p>
+                <p class="companyname">  <input type = "image" img src="images/amexlogo.jpg"  class="amexlogo"  
+                       class="button" id="AMXbutton" />
+                        American Express, New York & London </p>
                 <p class="jobdescription"> Held a number of management positions including:</p>
 
-                    <ul class="jobbullets">
+                    <ul class="jobbullets hidden" id ="AMXlist"> 
       
                         <li>Director – Customer Services – London
                         As part of a world-wide team focused on improving customer service, 
@@ -140,11 +154,14 @@
                         scoring, new business processes and decision support systems. </li>
                     </ul>  
             </div>
+            
+             <script type="text/javascript"  src = "JS/button.js" > </script>
+             
         </article>    
 
         <article>        
              <div class="jobs"> 
-                 <p class="companyname" id="education"> Education  </p>
+                 <p class="education" id="education"> Education  </p>
                  <p class="schoolname"> <img src="images/LBS.jpg" class="csclogo" alt = "logo">London Business School, MBA  </p> 
                  <p class="schoolname"><img src="images/Hofstra.jpg" class="csclogo" alt = "logo">Hofstra University, BS Economics  </p> 
              </div>     
