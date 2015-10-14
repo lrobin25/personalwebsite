@@ -1,11 +1,11 @@
 
 // button togle for logos on accomplishemnts page
 
-     //var PWRbutton = document.getElementById('PWRbutton');
-       //         PWRbutton.addEventListener('click',function(evt) {
-         //       var itemlist = document.getElementById('itemlist');
-           //     itemlist.classList.toggle('hidden');       
-             //  });
+     var PWRbutton = document.getElementById('PWRbutton');
+         PWRbutton.addEventListener('click',function(evt) {
+         var itemlist = document.getElementById('itemlist');
+         itemlist.classList.toggle('hidden');       
+             });
 
    
     var MXLbutton = document.getElementById('MXLbutton');
